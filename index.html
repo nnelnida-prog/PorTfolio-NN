@@ -1,240 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicole T. Nelnida - BSIT Academic Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nicole Nelnida | Data Analyst Portfolio</title>
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <!-- HERO PROFILE SECTION -->
-    <section class="hero-section">
-        <div class="hero-container">
-            <div class="hero-text">
-                <span class="college-tag">Datamex College of Saint Adeline • BSIT Portfolio</span>
-                <h1>Hi, I'm <span class="highlight-name">Nicole T. Nelnida</span></h1>
-                <p class="hero-subtext">WHAT I KNOW + WHAT I CAN DO + WHAT I HAVE BUILT + HOW I SOLVE PROBLEMS</p>
-                <p class="hero-description">
-                    Welcome to my industry-ready professional portfolio website designed to showcase full-stack IT capabilities, responsive UI/UX designs, networking diagnostics, and cybersecurity principles.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">VIEW MY PROJECTS</a>
-                    <a href="#resume" class="btn btn-outline">DOWNLOAD RESUME</a>
-                </div>
-            </div>
-            <div class="hero-image-wrapper">
-                <div class="image-ring">
-                    <img src="image.png" alt="Nicole T. Nelnida Profile Picture">
-                </div>
-            </div>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#home" class="nav-btn active">Home</a>
+    <a href="#profile" class="nav-btn">Profile</a>
+    <a href="#skills" class="nav-btn">Skills</a>
+    <a href="#projects" class="nav-btn">Projects</a>
+    <a href="#problem-solving" class="nav-btn">Problem-Solving</a>
+    <a href="#employability" class="nav-btn">Employability</a>
+    <a href="#resume" class="nav-btn">Resume</a>
+    <a href="#certificates" class="nav-btn">Certificates/Achievements</a>
+    <a href="#github" class="nav-btn">Github</a>
+    <a href="#contact" class="nav-btn">Contact</a>
+    <a href="#reflection" class="nav-btn">Reflection</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- Home Section -->
+    <section id="home" class="card hero-card">
+      <div class="hero-img-wrapper">
+        <!-- Palitan ang image URL kung mayroon kang sariling larawan -->
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop" alt="Nicole Nelnida" class="profile-img" />
+      </div>
+      <div class="hero-content">
+        <h1>Hi, I am <span class="highlight-white">Nicole Nelnida</span></h1>
+        <h2 class="role">Data Analyst</h2>
+        <p class="bio">
+          As a BSIT graduate from Datamex School of Saint Adeline, I specialize in transforming raw data into actionable insights through data cleaning, analysis, and visualization.
+        </p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="#resume" class="btn btn-outline">Download Resume</a>
+          <a href="#projects" class="btn btn-outline-red">View My Projects</a>
         </div>
+      </div>
     </section>
 
-    <!-- PROFESSIONAL PROFILE -->
-    <section class="profile-section">
-        <div class="container">
-            <h2>Professional Profile</h2>
-            <p class="profile-subtitle">BSIT background, career goals, technical strengths, and professional values.</p>
-            <div class="profile-card">
-                <p>
-                    I am an Information Technology student at Datamex College of Saint Adeline specializing in Web Development and UI/UX Design. My technical background spans front-end site structuring, modern CSS layout design, database concepts, network diagnostics, and operating system configuration. I focus on turning complex wireframes into responsive, user-centric web applications while following clean code practices. Beyond web development, I am continuously broadening my skill set across database queries, network troubleshooting, cybersecurity fundamentals, and AI-assisted workflows to stay competitive in the fast-evolving tech industry.
-                </p>
-                <br>
-                <p>
-                    My career goal is to secure a role as a Front-End Web Developer or UI/UX Designer, where I can build intuitive digital experiences that combine performance with aesthetic design. I value continuous learning, technical discipline, adaptability, and ethical AI utilization in software development.
-                </p>
-            </div>
+    <!-- Profile Section -->
+    <section id="profile" class="card">
+      <h2 class="section-title"><i class="fa-solid fa-user"></i> Profile & About Me</h2>
+      <div class="card-content">
+        <p>I am an ambitious BSIT graduate passionate about solving real-world business problems using data-driven solutions. My expertise lies in turning complex datasets into clear, interactive dashboards that empower teams to make smarter decisions.</p>
+        <div class="info-grid">
+          <div><strong>Education:</strong> BSIT - Datamex School of Saint Adeline</div>
+          <div><strong>Specialization:</strong> Data Analytics, Visualization & ETL</div>
+          <div><strong>Location:</strong> Philippines</div>
+          <div><strong>Status:</strong> Available for Full-Time Opportunities</div>
         </div>
+      </div>
     </section>
 
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <p class="section-subtitle">Demonstrating practical software development and web applications.</p>
-
-            <div class="projects-grid">
-                <!-- Card 1 -->
-                <div class="project-card">
-                    <h3 class="card-title text-red">BSIT Industry-Ready Portfolio</h3>
-                    <p class="card-description">
-                        A single-page professional portfolio website featuring responsive design, red and blue accent themes, and hosted on GitHub Pages.
-                    </p>
-                    <div class="tag">HTML / CSS / GitHub Pages</div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="project-card">
-                    <h3 class="card-title text-blue">Student Management System</h3>
-                    <p class="card-description">
-                        A web-based system for managing student records, tracking coursework, and executing standard CRUD operations on database structures.
-                    </p>
-                    <div class="tag">HTML / CSS / JS / Database</div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="project-card">
-                    <h3 class="card-title text-blue-dark">IT Service Center Performance Analysis</h3>
-                    <p class="card-description">
-                        Data-driven evaluation of 50 IT ticket requests assessing service efficiency, technician productivity, and user satisfaction.
-                    </p>
-                    <div class="tag">Excel / Data Analytics</div>
-                    <a href="#" class="btn-outline">View Project 2 Dashboard 📊</a>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="project-card">
-                    <h3 class="card-title text-green">Campus WiFi Performance Analysis</h3>
-                    <p class="card-description">
-                        A data analytics specialization project evaluating 50 campus WiFi records, location bottlenecks, and correlation analysis (r = -0.748).
-                    </p>
-                    <div class="tag">Excel / Data Analytics / Chart.js</div>
-                    <a href="#" class="btn-outline">View WiFi Analytics Dashboard 📊</a>
-                </div>
-            </div>
-        </div>
+    <!-- Skills Section -->
+    <section id="skills" class="card">
+      <h2 class="section-title"><i class="fa-solid fa-code"></i> Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-badge"><i class="fa-solid fa-chart-pie"></i> Power BI / Tableau</div>
+        <div class="skill-badge"><i class="fa-solid fa-database"></i> SQL / MySQL</div>
+        <div class="skill-badge"><i class="fa-brands fa-python"></i> Python (Pandas, NumPy)</div>
+        <div class="skill-badge"><i class="fa-file-excel"></i> Advanced Excel & VBA</div>
+        <div class="skill-badge"><i class="fa-solid fa-broom"></i> Data Cleaning & Wrangling</div>
+        <div class="skill-badge"><i class="fa-solid fa-square-poll-vertical"></i> Statistical Analysis</div>
+      </div>
     </section>
 
-    <!-- NETWORKING & CYBERSECURITY DEMO -->
-    <section class="net-sec-section">
-        <div class="container">
-            <h2 class="section-title">Basic Networking, Troubleshooting & Cybersecurity</h2>
-            <p class="section-subtitle">Interactive demonstration of CLI diagnostics and cybersecurity awareness practices.</p>
-
-            <div class="cards-grid">
-                <div class="demo-card">
-                    <h3 class="card-header text-green">🌐 Networking & CLI Diagnostics Demo</h3>
-                    <p class="card-instruction">Click a button to simulate network troubleshooting commands:</p>
-                    <div class="command-buttons">
-                        <button onclick="runCliCommand('ping')">Run ping google.com</button>
-                        <button onclick="runCliCommand('ipconfig')">Run ipconfig /all</button>
-                        <button onclick="runCliCommand('flushdns')">Run ipconfig /flushdns</button>
-                    </div>
-                    <div class="terminal-box">
-                        <div class="terminal-titlebar">Command Prompt — [Version 10.0.22631]</div>
-                        <div class="terminal-body" id="terminalOutput">
-                            <span class="prompt-path">C:\Users\Nicole&gt;</span> <span class="terminal-text">Select a command above to test network connectivity...</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="demo-card">
-                    <h3 class="card-header text-purple">🛡️ Cybersecurity Awareness Checklist</h3>
-                    <p class="card-instruction">Best practices applied in web development and system administration:</p>
-                    <ul class="checklist">
-                        <li><span class="check-box">✔</span> <div><strong>HTTPS Encryption:</strong> Enforced SSL/TLS on live deployments via GitHub Pages.</div></li>
-                        <li><span class="check-box">✔</span> <div><strong>Credential Protection:</strong> No hardcoded passwords or API keys in public repositories.</div></li>
-                        <li><span class="check-box">✔</span> <div><strong>Phishing Awareness:</strong> Verifying email senders and domain SSL certificates before logging in.</div></li>
-                        <li><span class="check-box">✔</span> <div><strong>Data Privacy:</strong> Protecting user inputs and structuring safe database queries against SQL injection.</div></li>
-                    </ul>
-                </div>
-            </div>
+    <!-- Projects Section -->
+    <section id="projects" class="card">
+      <h2 class="section-title"><i class="fa-solid fa-diagram-project"></i> Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-item">
+          <h3>Sales Performance Dashboard</h3>
+          <p>Created an interactive Power BI dashboard tracking monthly revenue, top-performing product categories, and regional sales trends.</p>
+          <div class="tech-tags">
+            <span>Power BI</span>
+            <span>Excel</span>
+            <span>SQL</span>
+          </div>
         </div>
+        <div class="project-item">
+          <h3>Customer Churn Prediction</h3>
+          <p>Analyzed customer behavior datasets using Python to identify key indicators causing user subscription cancellations.</p>
+          <div class="tech-tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- PROBLEM-SOLVING PORTFOLIO -->
-    <section class="problem-solving-section">
-        <div class="container">
-            <h2 class="section-title">Problem-Solving Portfolio</h2>
-            <p class="section-subtitle">Real-world IT troubleshooting cases, system diagnostics, and root-cause analytics.</p>
-
-            <div class="case-cards-list">
-                <div class="case-card">
-                    <h3 class="case-title text-red">Case 1: Windows Setup Error Loop Resolution via Registry Editor</h3>
-                    <p class="case-item"><strong>Problem:</strong> Encountered a persistent setup error loop (<em>"Windows could not complete the installation"</em>) during a clean Windows 11 OS reinstallation on an MSI laptop.</p>
-                    <p class="case-item"><strong>Diagnostic Procedure:</strong> Accessed Command Prompt using Shift + F10 and launched Registry Editor (regedit).</p>
-                    <p class="case-item"><strong>Solution:</strong> Navigated to HKLM\SYSTEM\Setup\Status\ChildCompletion, modified the value from 1 to 3, and completed bootup.</p>
-                </div>
-                <div class="case-card">
-                    <h3 class="case-title text-blue">Case 2: Local DNS Cache Corruption & Web Connectivity Failure</h3>
-                    <p class="case-item"><strong>Problem:</strong> Web browser failing to load live GitHub Pages deployments despite active Wi-Fi connection.</p>
-                    <p class="case-item"><strong>Solution:</strong> Executed ipconfig /flushdns in Command Prompt to clear the DNS resolver cache.</p>
-                </div>
-            </div>
-        </div>
+    <!-- Problem-Solving Section -->
+    <section id="problem-solving" class="card">
+      <h2 class="section-title"><i class="fa-solid fa-lightbulb"></i> Problem-Solving Approach</h2>
+      <div class="card-content">
+        <ul class="list-custom">
+          <li><strong>Identify & Define:</strong> Clarifying the core business problem and objectives before diving into raw datasets.</li>
+          <li><strong>Clean & Process:</strong> Removing duplicates, handling missing values, and restructuring data for seamless analysis.</li>
+          <li><strong>Analyze & Discover:</strong> Applying statistical methods and exploratory data analysis (EDA) to uncover trends.</li>
+          <li><strong>Visualize & Communicate:</strong> Building intuitive dashboards that turn numerical metrics into compelling stories.</li>
+        </ul>
+      </div>
     </section>
 
-    <!-- CERTIFICATES GALLERY -->
-    <section class="certificates-section">
-        <div class="container">
-            <h2 class="section-title">Certificates & Achievements Gallery</h2>
-            <p class="section-subtitle">Academic coursework, technical training, and seminar certificates:</p>
-
-            <div class="certificates-grid">
-                <div class="cert-card">
-                    <div class="cert-image-container">
-                        <img src="cert1.jpg" alt="BSIT Coursework Completion - Nicole T. Nelnida">
-                    </div>
-                    <div class="cert-body">
-                        <h3>BSIT Coursework Completion</h3>
-                        <p class="recipient">Nicole T. Nelnida</p>
-                    </div>
-                </div>
-                <div class="cert-card">
-                    <div class="cert-image-container">
-                        <img src="cert2.jpg" alt="Database Management - Nicole T. Nelnida">
-                    </div>
-                    <div class="cert-body">
-                        <h3>Database Management</h3>
-                        <p class="recipient">Nicole T. Nelnida</p>
-                    </div>
-                </div>
-                <div class="cert-card">
-                    <div class="cert-image-container">
-                        <img src="cert3.jpg" alt="Networking & Diagnostics - Nicole T. Nelnida">
-                    </div>
-                    <div class="cert-body">
-                        <h3>Networking & Diagnostics</h3>
-                        <p class="recipient">Nicole T. Nelnida</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Employability Section -->
+    <section id="employability" class="card">
+      <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Employability & Soft Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-badge">Critical Thinking</div>
+        <div class="skill-badge">Data Storytelling</div>
+        <div class="skill-badge">Attention to Detail</div>
+        <div class="skill-badge">Team Collaboration</div>
+        <div class="skill-badge">Adaptability & Fast Learner</div>
+      </div>
     </section>
 
-    <!-- FINAL REFLECTION -->
-    <section class="reflection-section">
-        <div class="container">
-            <h2 class="section-title">Final Reflection</h2>
-            <p class="section-subtitle">Personal reflection on academic growth, core learnings, key projects, and technical challenges.</p>
-
-            <div class="reflection-grid">
-                <div class="reflection-card">
-                    <h3 class="card-title text-red">1. What did I know about IT before entering BSIT?</h3>
-                    <p class="card-text">
-                        Before entering the BSIT program at Datamex College of Saint Adeline, my knowledge of IT was limited to basic computer use, internet browsing, and standard software navigation.
-                    </p>
-                </div>
-                <div class="reflection-card card-highlight">
-                    <h3 class="card-title text-green">3. Which project taught me the most and why?</h3>
-                    <p class="card-text">
-                        Building my Industry-Ready Personal Portfolio Website taught me the most because it required combining all my technical skills into one live project hosted on GitHub Pages.
-                    </p>
-                </div>
-            </div>
-        </div>
+    <!-- Resume Section -->
+    <section id="resume" class="card">
+      <h2 class="section-title"><i class="fa-solid fa-file-pdf"></i> Resume</h2>
+      <div class="card-content text-center">
+        <p>Click the button below to view or download my latest detailed resume/CV.</p>
+        <a href="#" class="btn btn-primary" onclick="alert('I-link dito ang iyong resume PDF file!')">
+          <i class="fa-solid fa-download"></i> Download Full Resume
+        </a>
+      </div>
     </section>
 
-    <!-- FINAL CHECKLIST -->
-    <section class="checklist-section">
-        <div class="container">
-            <h2 class="section-title">Final Portfolio Checklist</h2>
-            <p class="section-subtitle">Verification checklist confirming all technical, academic, and project requirements are met.</p>
-
-            <div class="checklist-grid">
-                <div class="checklist-item"><span class="checkbox-icon">☑</span> Professional email</div>
-                <div class="checklist-item"><span class="checkbox-icon">☑</span> Professional photograph</div>
-                <div class="checklist-item"><span class="checkbox-icon">☑</span> About Me</div>
-                <div class="checklist-item"><span class="checkbox-icon">☑</span> Career objective</div>
-                <div class="checklist-item"><span class="checkbox-icon">☑</span> Programming skills demonstrated</div>
-                <div class="checklist-item"><span class="checkbox-icon">☑</span> Web development skills demonstrated</div>
-                <div class="checklist-item"><span class="checkbox-icon">☑</span> Database skills demonstrated</div>
-                <div class="checklist-item"><span class="checkbox-icon">☑</span> Networking skills demonstrated</div>
-            </div>
+    <!-- Certificates Section -->
+    <section id="certificates" class="card">
+      <h2 class="section-title"><i class="fa-solid fa-award"></i> Certificates & Achievements</h2>
+      <div class="projects-grid">
+        <div class="project-item">
+          <h3>Data Analytics Professional Certificate</h3>
+          <p>Issued by Industry Provider • Completed in 2026</p>
         </div>
+        <div class="project-item">
+          <h3>SQL & Database Management Certification</h3>
+          <p>Issued by Learning Platform • Completed in 2025</p>
+        </div>
+      </div>
     </section>
 
-    <script src="script.js"></script>
+    <!-- GitHub Section -->
+    <section id="github" class="card">
+      <h2 class="section-title"><i class="fa-brands fa-github"></i> GitHub Repositories</h2>
+      <div class="card-content text-center">
+        <p>Explore my open-source data analytics scripts, Jupyter Notebooks, and SQL queries on GitHub.</p>
+        <a href="https://github.com" target="_blank" class="btn btn-outline-red">
+          <i class="fa-brands fa-github"></i> Visit My GitHub Profile
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="card">
+      <h2 class="section-title"><i class="fa-solid fa-envelope"></i> Contact Me</h2>
+      <div class="contact-box">
+        <form id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required placeholder="Juan Dela Cruz" />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" required placeholder="juan@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Reflection Section -->
+    <section id="reflection" class="card">
+      <h2 class="section-title"><i class="fa-solid fa-pen-nib"></i> Professional Reflection</h2>
+      <div class="card-content">
+        <p>My journey as a BSIT graduate has taught me that data is more than just numbers—it is the backbone of modern decision-making. Continuous learning and staying updated with analytical tools drive my passion to grow into an invaluable Data Analyst.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Nicole Nelnida. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
