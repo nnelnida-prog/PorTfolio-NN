@@ -333,3 +333,65 @@ footer {
     justify-content: center;
   }
 }
+
+.resume {
+    padding: 60px 10%;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.resume h2 {
+    font-size: 35px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.resume-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+
+.resume-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.resume-box h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.resume-box p,
+.resume-box li {
+    color: #444;
+    line-height: 1.8;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .resume-container {
+        grid-template-columns: 1fr;
+    }
+}
